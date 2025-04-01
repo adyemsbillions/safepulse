@@ -123,8 +123,9 @@ If you’d like to support this project, you can:
 
 ## 📞 Contact
 
-[![Twitter](https://x.com/AdebanjoSt63916)  
-📧 [your.email@example.com](stephenadebanjo86@gmail.com)
+[![Twitter](https://img.shields.io/badge/Twitter-%40AdebanjoSt63916-blue?style=flat&logo=twitter)](https://x.com/AdebanjoSt63916)
+
+📧 [stephenadebanjo86@gmail.com](mailto:stephenadebanjo86@gmail.com)
 
 ## 📄 License
 
