@@ -1,50 +1,131 @@
-# Welcome to your Expo app 👋
+# Silent Alarm App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📌 Overview
 
-## Get started
+The **Silent Alarm App** is a security-focused mobile application that allows users to send discreet alerts in emergency situations. Built with **React Native**, **Firebase**, and **Stripe**, it ensures user safety by providing a silent distress signal to pre-selected contacts or authorities.
 
-1. Install dependencies
+🚧 **This project is still under development.** 🚧  
+Contributions and donations are welcome! See below for details.
 
-   ```bash
-   npm install
-   ```
+## Features (Planned & Implemented)
 
-2. Start the app
+- **Silent Alert System** – Send emergency alerts without making a sound.
+- **Authentication** – Secure login with Firebase.
+- **Location Sharing** – Optionally share location with emergency contacts.
+- **Push Notifications** – Notify selected contacts instantly.
+- **Subscription System** – Monetized using **Stripe**.
+- **Smooth UI/UX** – Designed with **Figma**.
+- **Built with Expo** – Fast development with live reloading.
 
-   ```bash
-    npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+- **React Native (Expo)**
+- **Firebase (Authentication, Firestore)**
+- **Stripe (Payments)**
+- **Figma (UI/UX Design)**
+- **Node.js (Backend, if needed)**
+- **TypeScript (For type safety)**
+- **Framer Motion (Animations, if applicable)**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📂 Folder Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+SilentAlarmApp/
+│── src/
+│   ├── components/
+│   ├── screens/
+│   ├── services/
+│   ├── utils/
+│   ├── context/
+│── assets/
+│── App.js
+│── package.json
+│── firebaseConfig.js
+│── .gitignore
+│── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🔧 Installation & Setup
 
-## Learn more
+### 1️⃣ Clone the Repository
 
-To learn more about developing your project with Expo, look at the following resources:
+```sh
+ git clone https://github.com/SteeveSticks/SILENT-ALARM-APP.git
+ cd silent-alarm-app
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 2️⃣ Install Dependencies
 
-## Join the community
+```sh
+ npm install  # or yarn install
+```
 
-Join our community of developers creating universal apps.
+### 3️⃣ Configure Firebase
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
+- Enable **Firestore**, **Authentication**, and **Cloud Functions**.
+- Get your `firebaseConfig` and add it to `firebaseConfig.js`.
+
+### 4️⃣ Set Up Stripe
+
+- Create a Stripe account at [Stripe](https://stripe.com/).
+- Get your **API keys** and add them to your environment variables.
+
+### 5️⃣ Start the App
+
+```sh
+npx expo start  # Starts the Expo development server
+```
+
+## 🚀 Deployment
+
+To deploy your app, use **EAS Build** from Expo:
+
+```sh
+ eas build -p android --profile production
+```
+
+Or for iOS:
+
+```sh
+ eas build -p ios --profile production
+```
+
+## 🏆 Future Improvements
+
+- Add AI-based threat detection.
+- Multi-device synchronization.
+- Offline mode with local storage.
+
+## 💡 Contributing
+
+Contributions are welcome! If you'd like to add features or fix bugs:
+
+1. **Fork** the repo
+
+2. **Create a new branch** (feature-xyz)
+
+3. **Make changes and commit**
+
+4. **Open a Pull Request**
+
+If you need guidance, feel free to ask! 🙌
+
+## 💰 Support the Project
+
+If you’d like to support this project, you can:
+
+1. Sponsor development – Contact me via email or Twitter.
+
+2. Buy me a coffee ☕
+
+3. Share the project – Spread the word!
+
+## 📞 Contact
+
+[![Twitter](https://x.com/AdebanjoSt63916)  
+📧 [your.email@example.com](stephenadebanjo86@gmail.com)
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
