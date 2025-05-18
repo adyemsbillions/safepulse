@@ -123,9 +123,9 @@ If you’d like to support this project, you can:
 
 ## 📞 Contact
 
-[![Twitter](https://img.shields.io/badge/Twitter-%40AdebanjoSt63916-blue?style=flat&logo=twitter)](https://x.com/AdebanjoSt63916)
+[![Twitter](https://img.shields.io/badge/Twitter-%40AdebanjoSt63916-blue?style=flat&logo=twitter)](https://x.com/adyemsbillions)
 
-📧 [stephenadebanjo86@gmail.com](mailto:stephenadebanjo86@gmail.com)
+📧 [adyemsgodlove@gmail.com](mailto:adyemsgodlove@gmail.com)
 
 ## 📄 License
 
