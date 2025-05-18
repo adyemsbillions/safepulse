@@ -123,7 +123,7 @@ If you’d like to support this project, you can:
 
 ## 📞 Contact
 
-[![Twitter](https://img.shields.io/badge/Twitter-%40AdebanjoSt63916-blue?style=flat&logo=twitter)](https://x.com/adyemsbillions)
+[![Twitter](https://img.shields.io/badge/Twitter-%40adyemsbillions-blue?style=flat&logo=twitter)](https://x.com/adyemsbillions)
 
 📧 [adyemsgodlove@gmail.com](mailto:adyemsgodlove@gmail.com)
 
